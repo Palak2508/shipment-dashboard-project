@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Palak2508/shipment-dashboard-project.git/static/css/main.b4a22030.css",
+    "main.js": "/Palak2508/shipment-dashboard-project.git/static/js/main.0eb70ab9.js",
+    "index.html": "/Palak2508/shipment-dashboard-project.git/index.html",
+    "main.b4a22030.css.map": "/Palak2508/shipment-dashboard-project.git/static/css/main.b4a22030.css.map",
+    "main.0eb70ab9.js.map": "/Palak2508/shipment-dashboard-project.git/static/js/main.0eb70ab9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4a22030.css",
+    "static/js/main.0eb70ab9.js"
+  ]
+}
