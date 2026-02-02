@@ -1,0 +1,128 @@
+.dashboard-container {
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  margin-bottom: 40px;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.header h1 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: -0.5px;
+  animation: slideInFromLeft 0.6s ease-out;
+}
+
+.controls-bar {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  animation: slideInFromLeft 0.8s ease-out 0.2s both;
+}
+
+.filter-label {
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.filter-select,
+.sort-select {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: white;
+  padding: 12px 40px 12px 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='white' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+}
+
+.filter-select {
+  min-width: 200px;
+}
+
+.sort-select {
+  min-width: 250px;
+}
+
+.filter-select:hover,
+.sort-select:hover {
+  background: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.5);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.filter-select:focus,
+.sort-select:focus {
+  outline: none;
+  border-color: white;
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.filter-select:active,
+.sort-select:active {
+  transform: translateY(0);
+}
+
+.filter-select option,
+.sort-select option {
+  background: #2563ba;
+  color: white;
+  padding: 10px;
+}
+
+.shipments-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.no-results {
+  text-align: center;
+  color: white;
+  padding: 60px 20px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@media (max-width: 1200px) {
+  .shipments-grid {
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.8rem;
+  }
+
+  .shipments-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .controls-bar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filter-select,
+  .sort-select {
+    width: 100%;
+  }
+}
