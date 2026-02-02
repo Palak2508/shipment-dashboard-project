@@ -73,8 +73,8 @@ npm --version
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/shipment-status-dashboard.git
-cd shipment-status-dashboard
+git clone https://github.com/Palak2508/shipment-dashboard-project
+cd shipment-dashboard-project
 ```
 
 ### Step 2: Install Dependencies
@@ -140,7 +140,7 @@ shipment-status-dashboard/
 └── README.md
 ```
 
-## 🎨 Design Choices
+##  Design Choices
 
 ### Component Architecture
 
@@ -232,7 +232,7 @@ I used React Hooks for state management:
 | Clean Code | Well-organized, commented | ✅ |
 | Documentation | Comprehensive README | ✅ |
 
-## 🎬 Features Demo
+##  Features Demo
 
 ### Data Structure
 Each shipment includes:
@@ -257,7 +257,7 @@ Each shipment includes:
 - **Delivered**: Successfully delivered
 - **Cancelled**: Order cancelled
 
-## 🚧 Challenges Faced & Solutions
+## Challenges Faced & Solutions
 
 ### Challenge 1: Glassmorphism Performance
 **Problem**: Backdrop-filter can be performance-intensive on mobile devices  
@@ -279,7 +279,7 @@ Each shipment includes:
 **Problem**: Deciding between Context API, Redux, or Hooks  
 **Solution**: Chose Hooks for simplicity - perfect for this scale, easier to understand, no over-engineering
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 If this were to evolve into a production application, I would consider:
 
@@ -322,26 +322,26 @@ If this were to evolve into a production application, I would consider:
 ## Browser Compatibility
 
 Tested and verified on:
-- ✅ Chrome 120+
-- ✅ Firefox 121+
-- ✅ Safari 17+
-- ✅ Edge 120+
-- ✅ Mobile Safari (iOS 15+)
-- ✅ Chrome Mobile (Android 10+)
+-  Chrome 120+
+-  Firefox 121+
+-  Safari 17+
+-  Edge 120+
+-  Mobile Safari (iOS 15+)
+-  Chrome Mobile (Android 10+)
 
 ##  Development Best Practices
 
 This project follows:
-- ✅ Component reusability principles
-- ✅ Separation of concerns (components, services, styles)
-- ✅ DRY (Don't Repeat Yourself) code
-- ✅ Semantic HTML
-- ✅ Meaningful variable and function names
-- ✅ Comprehensive code comments
-- ✅ Consistent formatting and indentation
-- ✅ Modern ES6+ JavaScript syntax
-- ✅ Responsive design patterns
-- ✅ Accessibility considerations
+-  Component reusability principles
+-  Separation of concerns (components, services, styles)
+-  DRY (Don't Repeat Yourself) code
+-  Semantic HTML
+-  Meaningful variable and function names
+-  Comprehensive code comments
+-  Consistent formatting and indentation
+-  Modern ES6+ JavaScript syntax
+-  Responsive design patterns
+-  Accessibility considerations
 
 ##  Git Commit Strategy
 
@@ -365,8 +365,8 @@ MIT License - feel free to use this project for learning purposes.
 ## Contact
 
 For questions or feedback about this project:
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **GitHub**: [@palak2508](https://github.com/palak2508)
+- **Email**: palakpandey254@gmail.com
 
 ##  Acknowledgments
 
